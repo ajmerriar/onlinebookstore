@@ -22,7 +22,10 @@ public class DBConnection {
 		}
 		
 		try {
-			
+
+			println(IDatabase.CONNECTION_STRING)
+			println(IDatabase.USER_NAME)
+			println(IDatabase.PASSWORD)
 			con = DriverManager.getConnection(IDatabase.CONNECTION_STRING, IDatabase.USER_NAME, IDatabase.PASSWORD);
 		
 		}

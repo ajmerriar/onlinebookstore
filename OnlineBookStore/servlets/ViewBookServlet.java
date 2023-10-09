@@ -47,6 +47,7 @@ public class ViewBookServlet extends GenericServlet{
 		}
 		catch(Exception e)
 		{
+			println("Exception");
 			e.printStackTrace();
 		}
 	}
